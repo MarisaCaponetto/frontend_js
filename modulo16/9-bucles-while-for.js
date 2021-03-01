@@ -1,10 +1,10 @@
 /**
- * Bucles while and for
+ * BUCLES WHILE AND FOR
  *
  */
 
 
-// while 
+// WHILE 
 // Mientras que la condition (condición) sea true, el código del cuerpo del bucle será ejecutado.
 
 // while (condition) {
@@ -19,7 +19,7 @@
 //   index++;
 // }
 
-// El bucle “do…while”
+// DO WHILE
 // El bucle primero ejecuta el cuerpo, luego comprueba la condición, y, mientras sea un valor verdadero, la ejecuta una y otra vez.
 // Esta sintaxis solo debería ser usada cuando quieres que el cuerpo del bucle sea ejecutado al menos una vez sin importar que la condición sea verdadera. Usualmente, se prefiere la otra forma: while(…) {…}.
 
@@ -30,7 +30,7 @@
 // } while (i < 3);
 
 
-// for
+// FOR
 
 // for (begin; condition; step) {
 //   // ... cuerpo del bucle ...
@@ -45,7 +45,7 @@
 // paso	i++	Se ejecuta después del cuerpo en cada iteración pero antes de la comprobación de la condición.
 // cuerpo	console.log(i)	Se ejecuta una y otra vez mientras que la condición sea verdadera.
 
-// break and continue
+// BREAK AND CONTINUE
 
 // for (let i = 0; i < 10; i++) {
 //   // si es verdadero, saltar el resto del cuerpo
@@ -62,8 +62,25 @@
 
 console.log(`
   Usa el bucle for para mostrar usando console.log números pares del 2 al 10 inclusive.
+  for (let i = 1; i <= 10; i++) {
+    if (i%2 == 0) {
+    console.log(i)
+  }
+  }
+
   Remplazar este while por for (la salida debe ser la misma)
+  
+  let i = 1; 
+  while (i <= 10 && i % 2 == 0) {
+    console.log (i)
+    i++;
+  }
+
+
+
 `)
+
+
 
 let i = 0;
 while (i < 3) {

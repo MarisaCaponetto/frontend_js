@@ -9,7 +9,7 @@
 
 // if (age > 18) { console.log('Eres mayor de edad')} 
 // else if (age < 18) { console.log('Eres menor de edad')} 
-// else { console.log('TIenes 18 años !!')}
+// else { console.log('Tienes 18 años !!')}
 
 // El número 0, un string vacio "", null, undefined, y NaN se convierte en false. Por esto son llamados valores “falso”.
 // El resto de los valores se convierten en true, entonces los llamaremos valores “verdadero”.
@@ -34,16 +34,17 @@
 
 
 /**
- * Operadores Ternarios
+ * OPERADORES TERNARIOS
  *
  */
 
 // Nos permite ejecutar esto en una forma más corta y simple.
 
-// const age = 12;
+// const age = 31;
 // age > 18 ? console.log('Eres mayor de edad !') : console.log('Eres menor de edad')
+// CONDITION? CONDITION FULLFILED                 : CONDITION NOT FULLFILED.
 
-// Multiple ternarios
+// MULTIPLES TERNARIOS
 
 // let age = 101;
 
@@ -69,6 +70,17 @@ console.log(`
   Esta contraseña es igual a "MyPassword1234" si es asi mostrar un console.log con el mensaje "Logged In" sino escribir
   un console.log con el mensaje "Wrong Password"
 
+  let password = "myOldPassword"
+  if (password == "myPassword1234") {
+    console.log("Logged In")
+  } else {
+    console.log("Wrong Password")
+  }
+
   2. Reescriba esta condición if usando el operador ternario '?':
   
+  let password = "myOldPassword"
+  password == "myOldPassword1234" ? console.log('Logged In') : console.log('Wrong Password!!')
+  
+
 `)

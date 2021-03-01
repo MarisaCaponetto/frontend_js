@@ -1,15 +1,15 @@
 /**
- * Operadores Lógicos
+ * OPERADORES LÓGICOS
  *
  */
 
 // OR Encuentra el primer valor verdadero
 // Si un operando no es un booleano, se lo convierte a booleano para la evaluación.
 
-// console.log(true || true); 
-// console.log(false || true);
-// console.log(true || false);
-// console.log(false || false);
+// console.log(true || true);       IMPRIME TRUE
+// console.log(false || true);      IMPRIME TRUE
+// console.log(true || false);      IMPRIME TRUE
+// console.log(false || false);     IMPRIME FALSE
 
 // Por ejemplo, el número 1 es tratado como true, el número 0 como false:
 
@@ -18,10 +18,17 @@
 // }
 
 // let hour = 9;
-
 // if (hour < 10 || hour > 18) {
-//   console.log( 'La oficina esta cerrada.' );
+//   console.log( 'La oficina esta cerrada.' );  IMPRIME "La oficina está cerrada"
 // }
+
+// let hour = 12;
+// if (hour < 10 || hour > 18) {
+//   console.log( 'La oficina está cerrada.' );  
+// } else {
+//   console.log("La oficina está abierta")            IMPRIME "La oficina está abierta"
+}
+
 
 // console.log(1 || 0); // 1 (1 es un valor verdado)
 
@@ -41,16 +48,16 @@
 // AND - Encuentra el primer valor false
 // El operador AND es representado con dos ampersands &&:
 
-// console.log(true && true); // true
-// console.log(false && true); // false
-// console.log(true && false); // false
-// console.log(false && false); // false
+// console.log(true && true); //        Imprime true
+// console.log(false && true); //       Imprime false
+// console.log(true && false); //       Imprime false
+// console.log(false && false); //      Imprime false
 
 // let hour = 12;
 // let minute = 30;
 
 // if (hour == 12 && minute == 30) {
-//   console.log("La hora es 12:30");
+//   console.log("La hora es 12:30");      Imprime "La hora es 12:30"
 // }
 
 // Al igual que con OR, cualquier valor es permitido como operando de AND:
@@ -79,16 +86,16 @@
 **************************************/
 
 console.log(`
-  ¿Cuál es el resultado de OR?
+  ¿Cuál es el resultado de OR?                 
 
-  console.log( null || 2 || undefined )
+  console.log( null || 2 || undefined )     IMPRIME 2??
 
   ¿Cuál es el resultado de AND?
-  console.log( 1 && null && 2 )
+  console.log( 1 && null && 2 )             IMPRIME NULL
 
   ¿Cuál es el resultado de ! NOT?
-  console.log( !'Hola' )
+  console.log( !'Hola' )                    IMPRIME FALSE
 
   El resultado de OR AND OR
-  console.log( null || 2 && 3 || 4 )
+  console.log( null || 2 && 3 || 4 )        IMPRIME 3???
 `)

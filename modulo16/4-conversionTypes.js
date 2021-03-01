@@ -1,19 +1,26 @@
 /**
- * Conversion Types
+ * CONVERSION TYPES
  *
  */
 
-// String()
+// STRING()
 // let value = true;
 // console.log(typeof value);
 // console.log(value)
-// console.log(String(value))
+// console.log(String(value)) OBJETO CONSTRUCTOR, DEVUELVE TRUE PERO EN STRING.
+// let newString = String(value)
+// console.log(`El valor es ${newString}.`) TODO SALE COMO STRING.
 
 // value = String(value); 
 // console.log(typeof value);
 // console.log(value)
 // console.log("es string" + value)
 
+// NUMBER
+// let num = "31"
+// let newNum = Number (num)    CONVIERTE EL STRING EN NUMBER
+// console.log(num)             ES UN STRING
+// console.log(newNumber)       ES UN NUMBER
 // let num = 123
 // // no cambia el valor sino que devuelve un nuevo valor convertido
 // let stringNum = String(num)
@@ -49,12 +56,13 @@
 // console.log( 1 + '2' ); 
 // console.log( '1' + 2 ); 
 
-// Boolean()
+// BOOLEAN()
 
-// console.log( Boolean(1) );
-// console.log( Boolean(0) );
+// console.log( Boolean(1) );  IMPRIME TRUE
+// console.log( Boolean(0) );  IMPRIME FALSE
+// console.log( Bolean({}) );  DEVUELVE TRUE
 
-// console.log( Boolean("hola") );
-// console.log( Boolean("") );
-// console.log( Boolean(" ") );
-// console.log( Boolean("0") );
+// console.log( Boolean("hola") ); DEVUELVE TRUE
+// console.log( Boolean("") );     DEVUELVE FALSE
+// console.log( Boolean(" ") );    DEVUELVE TRUE
+// console.log( Boolean("0") );    DEVUELVE TRUE
